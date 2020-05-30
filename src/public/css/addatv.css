@@ -1,0 +1,76 @@
+body{
+    background-color: indigo !important;
+}
+
+.title,.title2{
+    margin-top: 10px;
+    text-align: center;
+}
+.form {
+    margin-top: 10px;
+}
+#gerar{
+    margin-left: 50%;
+    width: 50%;
+    margin-top: 10px;
+}
+#desLabel   {
+    margin-top: 10px;
+}
+.btn {
+    margin-top: 10px;
+    margin-left: 50%;
+    width: 45%;
+}
+.form-control,.form-group{
+    margin-top: 10px;
+}
+#err,.err2 {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.err2 {
+    margin-top: 0;
+}
+.quest{
+    padding-top: 20px;
+}
+.lista{
+    padding-top: 10px;
+}
+#laS{
+    padding-top: 10px;
+}
+select{
+    margin-left: 4px;
+    margin-top: 10px;
+}
+.carregando{
+    visibility: hidden;
+}
+.img img{
+    
+    width: 25px;
+}
+.finalizar{
+    visibility: hidden;
+}
+.btn,.navbar{
+    background-color: indigo !important;
+}
+
+@media screen and (min-width:900px){
+    .form{
+        margin-left: 15%;
+        width: 70% !important;
+    }
+    .form{
+        margin-left: 15%;
+        width: 70% !important;
+    }
+    .quest { 
+        margin-left: 15%;
+        width: 70% !important; 
+    }
+}

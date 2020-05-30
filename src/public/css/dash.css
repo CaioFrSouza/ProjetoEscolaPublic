@@ -1,0 +1,41 @@
+body{
+    background-color: indigo;
+}
+.navbar{
+    background-color: rgb(94, 20, 146) !important;
+}
+.medias-Chart,.medias-Alunos{
+    overflow: auto;
+    display: none;
+    margin-top: 10px !important;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+table{
+    
+    background-color: rgb(255, 255, 255) !important;
+    color: black !important;
+}
+.medias-Alunos{
+    height: 350px;
+    overflow: auto;
+}
+.list-title{
+    text-align: center !important;
+}
+@media screen  and (min-width:900px){
+    .medias-Chart{
+        height: 60%;
+        width: 60% !important; 
+        margin-right: 10% !important;
+        margin-left: 10px !important;
+    }
+    .medias-Alunos{
+        overflow: auto;
+        position: absolute;
+        top:10%;
+        margin-right: 10px !important;
+        left: 60% !important;
+        width: 400px;
+        height: 350px;
+    }
+}
